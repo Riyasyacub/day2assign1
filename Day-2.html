@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2</title>
+</head>
+<body>
+    <script>
+        var name=prompt("Write something to print :","");
+        console.log(name);
+        var str="edfgh erfghn xcfghji";
+        console.log(str.length);
+        console.log(str.indexOf("g"));
+        console.log(str.lastIndexOf("g"));
+        console.log(str.search("n"));
+        console.log(str.slice(4,10));
+        console.log(str.substr(4,10));
+        var n = str.replace('edf','fde');
+        console.log(n)
+        console.log(n.toUpperCase());
+        console.log(n.toLocaleLowerCase())
+        var m=str.concat("",n)
+        console.log(m)
+        console.log(str.charAt(0))
+        // console.log(str.charCodeAt(0))
+        console.log(str.split("g"))
+        var arr=["riyas","javid","ertyu","vbjk"]
+        console.log(arr.toString())
+        console.log(arr.join("*"))
+        console.log(arr.pop())
+        console.log(arr.push("efv"))
+        console.log(arr.shift())
+        console.log(arr)
+        console.log(arr.unshift("bhujn"))
+        console.log(arr.length)
+        console.log(arr.splice(0,1))
+        var drink=confirm("R u 21 and older??")
+        if (drink==true){
+            console.log("Can Drink")
+        }else{
+            console.log("Cannot Drink")
+        }
+    </script>
+    
+</body>
+</html>
